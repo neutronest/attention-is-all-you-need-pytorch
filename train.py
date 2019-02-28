@@ -112,6 +112,8 @@ def eval_epoch(model, validation_data, device):
 
             # forward
             pred = model(src_seq, src_pos, tgt_seq, tgt_pos)
+            print("pred: {}".format(pred))
+            print("gold: {}".format(gold))
             loss, n_correct = cal_performance(pred, gold, smoothing=False)
 
             # note keeping
