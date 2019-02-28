@@ -1,13 +1,13 @@
-import transformer.Constants
-import transformer.Modules
-import transformer.Layers
-import transformer.SubLayers
-import transformer.Models
-import transformer.Translator
-import transformer.Beam
-import transformer.Optim
+from transformer.transformer import Constants
+from transformer.transformer  import Modules
+from transformer.transformer import Layers
+from transformer.transformer import SubLayers
+from transformer.transformer import Models
+from transformer.transformer import Translator
+from transformer.transformer import Beam
+from transformer.transformer import Optim
 
 __all__ = [
-    transformer.Constants, transformer.Modules, transformer.Layers,
-    transformer.SubLayers, transformer.Models, transformer.Optim,
-    transformer.Translator, transformer.Beam]
+    Constants, Modules, Layers,
+    SubLayers, Models, Optim,
+    Translator, Beam]
